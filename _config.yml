@@ -1,0 +1,45 @@
+version: 1
+meta_data: 
+  title: 
+  description: 
+  image: 
+sections: 
+  - name: home
+    path: home.md
+    attributes: 
+      - title
+      - image
+  - name: about
+    path: about.md
+    attributes: 
+      - title
+      - description
+      - image
+  - name: feature
+    path: feature.md
+    attributes: 
+      - title
+      - description
+      - subtitle
+      - subdescription
+      - list:
+          - title
+          - description
+          - image
+  - name: service
+    path: service.md
+    attributes: 
+      - title
+      - description
+      - image
+  - name: contact
+    path: contact.md
+    attributes: 
+      - icon
+      - title
+      - description
+      - button_text
+      - button_link
+      - footer
+
+
